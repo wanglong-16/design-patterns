@@ -1,4 +1,4 @@
-package behavioral.chainofresponsibility;
+package behavioral.chainofresponsibility.bean;
 
 /**
  * @description: 前端工程师
@@ -6,7 +6,7 @@ package behavioral.chainofresponsibility;
  * @date: 2021-01-03 22:43:03
  * @author: wanglong16@meicai.cn
  */
-public class CutPictureBoy extends Technician{
+public class CutPictureBoy extends Technician {
 
     private final String name;
 
@@ -15,7 +15,7 @@ public class CutPictureBoy extends Technician{
     }
 
     @Override
-    void handle(Work work) {
+    public void handle(Work work) {
         if (work.getWorkType() == 2) {
             working(work);
         } else if (nextCooperator != null){

@@ -1,5 +1,10 @@
 package behavioral.chainofresponsibility;
 
+import behavioral.chainofresponsibility.bean.CRUDBoy;
+import behavioral.chainofresponsibility.bean.CutPictureBoy;
+import behavioral.chainofresponsibility.bean.UIDesigner;
+import behavioral.chainofresponsibility.bean.Work;
+
 /**
  * @description:
  * @version: 1.0

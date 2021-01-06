@@ -1,4 +1,6 @@
-package behavioral.chainofresponsibility;
+package behavioral.chainofresponsibility.bean;
+
+import behavioral.chainofresponsibility.IWorkIng;
 
 /**
  * @description: 技术人员
@@ -7,7 +9,7 @@ package behavioral.chainofresponsibility;
  * @author: wanglong16@meicai.cn
  * @summary:
  */
-public abstract class Technician implements IWorkIng{
+public abstract class Technician implements IWorkIng {
 
     protected Technician nextCooperator;
 
@@ -15,5 +17,5 @@ public abstract class Technician implements IWorkIng{
         this.nextCooperator = nextCooperator;
     }
 
-    abstract void handle(Work work);
+    public abstract void handle(Work work);
 }

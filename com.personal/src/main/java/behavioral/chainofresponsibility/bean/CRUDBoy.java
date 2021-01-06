@@ -1,4 +1,4 @@
-package behavioral.chainofresponsibility;
+package behavioral.chainofresponsibility.bean;
 
 /**
  * @description: crud 工程师
@@ -6,7 +6,7 @@ package behavioral.chainofresponsibility;
  * @date: 2021-01-03 22:44:25
  * @author: wanglong16@meicai.cn
  */
-public class CRUDBoy extends Technician{
+public class CRUDBoy extends Technician {
 
     private final String name;
 
@@ -15,7 +15,7 @@ public class CRUDBoy extends Technician{
     }
 
     @Override
-    void handle(Work work) {
+    public void handle(Work work) {
         if (work.getWorkType() != 1 && work.getWorkType() != 2) {
             working(work);
         } else {

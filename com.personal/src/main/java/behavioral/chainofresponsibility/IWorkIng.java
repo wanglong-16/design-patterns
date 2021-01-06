@@ -1,5 +1,7 @@
 package behavioral.chainofresponsibility;
 
+import behavioral.chainofresponsibility.bean.Work;
+
 /**
  * @description: 工作接口
  * @version: 1.0

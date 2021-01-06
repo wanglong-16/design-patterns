@@ -1,4 +1,4 @@
-package behavioral.chainofresponsibility;
+package behavioral.chainofresponsibility.bean;
 
 /**
  * @description: UI设计师
@@ -7,7 +7,7 @@ package behavioral.chainofresponsibility;
  * @author: wanglong16@meicai.cn
  * @summary:
  */
-public class UIDesigner extends Technician{
+public class UIDesigner extends Technician {
 
     private final String name;
 
@@ -16,7 +16,7 @@ public class UIDesigner extends Technician{
     }
 
     @Override
-    void handle(Work work) {
+    public void handle(Work work) {
         if (work.getWorkType() == 1) {
             working(work);
         } else if (nextCooperator != null){

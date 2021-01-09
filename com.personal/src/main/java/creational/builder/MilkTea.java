@@ -1,7 +1,7 @@
 package creational.builder;
 
 /**
- * @description: 特别适合构建带有默认值配置的对象
+ * @description: 特别适合构建带有默认值配置的稳定对象
  * @version: 1.0
  * @date: 2021-01-06 21:51:57
  * @author: wanglong16@meicai.cn

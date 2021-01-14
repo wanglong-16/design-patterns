@@ -7,7 +7,7 @@
 *.log
 #不跟踪下面的目录
 /bin/
-target/
+com.personal/target/
 WebContent/
 bin/
 logs/

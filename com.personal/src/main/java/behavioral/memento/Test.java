@@ -10,7 +10,7 @@ import behavioral.memento.bean.GamePlayerSnapshot;
  * @date: 2021-01-14 07:56:27
  * @author: wanglong16@meicai.cn
  */
-public class Main {
+public class Test {
 
     public static void main(String[] args) {
         Boss boss = new Boss(4,20);

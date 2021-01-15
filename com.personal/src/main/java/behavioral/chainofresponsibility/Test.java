@@ -11,7 +11,7 @@ import behavioral.chainofresponsibility.bean.Work;
  * @date: 2021-01-03 22:56:15
  * @author: wanglong16@meicai.cn
  */
-public class Main {
+public class Test {
 
     public static void main(String[] args) {
         UIDesigner uiDesigner = new UIDesigner("小白");

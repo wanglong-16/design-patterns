@@ -10,7 +10,7 @@ import creational.singleton.impl.LazySingleton;
  * @author: wanglong16@meicai.cn
  * @summary:
  */
-public class Main {
+public class Test {
 
     public static void main(String[] args) {
         HungrySingleton hungrySingleton = HungrySingleton.getInstance();

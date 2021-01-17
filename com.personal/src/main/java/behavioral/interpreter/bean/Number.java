@@ -8,7 +8,7 @@ package behavioral.interpreter.bean;
  */
 public class Number implements Expression{
 
-    
+
 
     public int interpret() {
         return 0;

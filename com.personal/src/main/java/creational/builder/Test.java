@@ -6,7 +6,7 @@ package creational.builder;
  * @date: 2021-01-06 22:01:29
  * @author: wanglong16@meicai.cn
  */
-public class Main {
+public class Test {
 
     public static void main(String[] args) {
         MilkTea milkTea = new MilkTea.Builder()

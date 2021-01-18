@@ -10,7 +10,7 @@ import creational.factory.shopfactory.HatFactory;
  * @author: wanglong16@meicai.cn
  * @summary:
  */
-public class Main {
+public class Test {
 
     public static void main(String[] args) {
         AbstractShopItem shoes = SimpleFactory.create("shoes");

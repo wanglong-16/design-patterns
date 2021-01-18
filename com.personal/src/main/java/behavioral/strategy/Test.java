@@ -9,7 +9,7 @@ import behavioral.strategy.sort.SortIntArrStrategy;
  * @author: wanglong16@meicai.cn
  * @summary:
  */
-public class Main {
+public class Test {
 
     public static void main(String[] args) {
         int [] arr = {1, 3,  2, 6, 10, 22, 5, 7, 9};

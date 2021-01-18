@@ -11,7 +11,7 @@ import behavioral.template.bean.StickLeaveTemplate;
  * @author: wanglong16@meicai.cn
  * @summary:
  */
-public class Main {
+public class Test {
 
     public static void main(String[] args) {
         AbstractLeaveTemplate eventLeaveTemplate = new EventLeaveTemplate();

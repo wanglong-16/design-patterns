@@ -14,14 +14,17 @@ import behavioral.visitor.bean.Orange;
  */
 public class LiBai implements IVisitor {
 
+    @Override
     public void chooseFruit(Banana banana) {
         System.out.println("我是诗仙 李白，我拿到了水果" + banana.name());
     }
 
+    @Override
     public void chooseFruit(Apple apple) {
         System.out.println("我是诗仙 李白，我拿到了水果" + apple.name());
     }
 
+    @Override
     public void chooseFruit(Orange orange) {
         System.out.println("我是诗仙 李白，我拿到了水果" + orange.name());
     }

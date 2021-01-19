@@ -13,14 +13,17 @@ import behavioral.visitor.bean.Orange;
  * @summary:
  */
 public class DuFu implements IVisitor {
+    @Override
     public void chooseFruit(Banana banana) {
         System.out.println("我是诗圣 杜甫，我拿到了水果" + banana.name());
     }
 
+    @Override
     public void chooseFruit(Apple apple) {
         System.out.println("我是诗圣 杜甫，我拿到了水果" + apple.name());
     }
 
+    @Override
     public void chooseFruit(Orange orange) {
         System.out.println("我是诗圣 杜甫，我拿到了水果" + orange.name());
     }

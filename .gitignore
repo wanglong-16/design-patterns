@@ -15,5 +15,5 @@ logs/
 .idea/
 *.iml
 */*.iml
-rebel.xml
+*.xml
 */rebel.xml
